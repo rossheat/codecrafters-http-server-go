@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch Go Server",
+        "type": "go",
+        "request": "launch",
+        "mode": "auto",
+        "program": "${workspaceFolder}/app/server.go",
+        "cwd": "${workspaceFolder}/app",
+        "args": [],
+        "env": {
+          "ENV": "development"
+        }
+      }
+    ]
+  }
